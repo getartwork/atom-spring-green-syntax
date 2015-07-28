@@ -1,7 +1,7 @@
 #Atom Spring Green Syntax theme
 
 When used with the spring green ui https://atom.io/themes/atom-spring-green-ui
-![Screenshot](http://imgur.com/t9jJ0vK.png)
+![Screenshot](http://imgur.com/gkhGMkx.png)
 
 
 Atom page: https://atom.io/themes/atom-spring-green-syntax
