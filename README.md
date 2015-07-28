@@ -1,5 +1,4 @@
-# atom-spring-green-syntax theme
+#Atom Spring Green Syntax theme
 
-A short description of your theme.
-
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+When used with https://github.com/ThanatchaPanpairoj/atom-soft-green-ui
+![Screenshot](http://imgur.com/t9jJ0vK)
