@@ -46,8 +46,15 @@ atom-text-editor, :host {
     color: @syntax-cursor-color;
   }
 
-  .selection .region {
+  .selection {
+    .region {
     background-color: @syntax-selection-color;
+    }
+    color: white;
+  }
+
+  .selection .text .color {
+    color: white;
   }
 }
 
@@ -99,6 +106,11 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .storage {
   color: #006600;
+
+  &::selection {
+    background-color: @syntax-selection-color;
+    color: white;
+  }
 }
 
 .constant {
@@ -234,6 +246,10 @@ atom-text-editor .search-results .marker.current-result .region,
 .meta {
   &.class {
     color: #006600;
+
+    &::selection {
+      color: white;
+    }
   }
 
   &.link {
