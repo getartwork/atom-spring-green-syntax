@@ -3,7 +3,7 @@
 A spring green syntax theme for Atom.
 
 When used with the spring green theme UI https://atom.io/themes/atom-spring-green-ui
-![Screenshot](http://imgur.com/gkhGMkx.png)
+![Screenshot](http://imgur.com/MQqchL2.png)
 
 
 Atom page: https://atom.io/themes/atom-spring-green-syntax
