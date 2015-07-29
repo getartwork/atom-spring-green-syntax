@@ -3,6 +3,7 @@
 atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
+  font-weight: bold;
 
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
@@ -64,6 +65,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .comment {
   color: @light-gray;
+  font-weight: normal;
 }
 
 .entity {
@@ -78,6 +80,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .keyword {
   color: @red;
+  font-weight: bold;
 
   &.control {
     color: @cyan;
@@ -98,10 +101,12 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .storage {
   color: #009933;
+  font-weight: bold;
 }
 
 .constant {
   color: @orange;
+  font-weight: bold;
 
   &.character.escape {
     color: @cyan;
@@ -122,6 +127,8 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .variable {
   color: @red;
+  font-weight: bold;
+  font-style: italic;
 
   &.interpolation {
     color: darken(@red, 10%);
@@ -139,7 +146,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .string {
   color: @green;
-
+  font-weight: bold;
 
   &.regexp {
     color: @cyan;
@@ -233,6 +240,7 @@ atom-text-editor .search-results .marker.current-result .region,
 .meta {
   &.class {
     color: #006600;
+    font-weight: bolder;
   }
 
   &.link {
@@ -255,6 +263,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .none {
   color: @syntax-text-color;
+  font-weight: bold;
 }
 
 .markup {
