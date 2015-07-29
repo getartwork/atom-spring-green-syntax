@@ -1,4 +1,4 @@
-#Atom Spring Green Syntax theme
+# Atom Spring Green Syntax theme
 
 A spring green syntax theme for Atom.
 
